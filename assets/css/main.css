@@ -1,0 +1,120 @@
+/*complementary
+008357
+1C5C46
+00AC72
+F22F00
+911C00
+*/
+
+
+html,
+body,
+.cover {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secondary {
+    color:#F22F00;
+}
+
+.primary {
+    color: #00AC71;
+}
+
+.cover {
+	background: url('../img/cover-img.png') top left no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0 20%;
+    box-shadow:inset 0 0 100px #000;
+}
+
+.cover-text {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cover-text h1 {
+    margin: 0;
+    font-size: 70px;
+    letter-spacing: -3px;
+    text-transform: ;
+    font-weight:700;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+
+}
+
+.cover-text-secondary {
+    margin-top:20px;
+    margin-bottom:50px;
+    font-size:22px;
+    letter-spacing: 2px;
+}
+
+nav.navbar-default {
+    background: white;
+    border:none;
+
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+/*a.button {
+    text-decoration:none;
+}
+
+
+.button {
+    text-decoration:none;
+    outline:none;
+    border: 2px solid #008357;
+    line-height:60px;
+    padding: 10px 20px;
+    border-radius:5px;
+    text-align: center;
+    font-size: 18px;
+
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none; 
+}
+
+.button:active {
+    -webkit-box-shadow: inset 0px 5px 28px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: inset 0px 5px 28px 0px rgba(0,0,0,0.31);
+box-shadow: inset 0px 5px 28px 0px rgba(0,0,0,0.31);
+}
+
+.button-primary {
+    background:#00AC72;
+    color:white;
+}
+
+.button-primary:hover {
+    background: #008357;
+    color:white;
+}
+
+.button-primary-inverse {
+    background:none;
+    color: white;
+    border-color: white;
+}
+
+.button-primary-inverse:select {
+    select
+}
+
+.button-primary-inverse:hover {
+    background:none;
+    color: white;
+    border-color: white;
+}*/
