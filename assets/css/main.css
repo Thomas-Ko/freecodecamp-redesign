@@ -7,6 +7,15 @@ F22F00
 */
 
 
+::selection {
+  background: #00AC72; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #00AC72; /* Gecko Browsers */
+}
+
+
 html,
 body,
 .cover {
@@ -23,7 +32,7 @@ body,
 }
 
 .cover {
-	background: url('../img/cover-img.png') top left no-repeat;
+	background: url('../img/cover-img-green.png') top left no-repeat;
     background-size: cover;
     display: table;
     width: 100%;
@@ -33,7 +42,7 @@ body,
 
 .cover-text {
     text-align: center;
-    color: white;
+    color: #f5f2ef;
     display: table-cell;
     vertical-align: middle;
 }
@@ -69,7 +78,16 @@ nav.navbar-default {
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
     -moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
+.navbar-default .navbar-nav>li>a:hover {
+    color:#00AC72;
+}
+
+#sign-in {
+    border:2px solid #00AC72;
+    background:none;
+    color: #00AC72;
 }
 
 /*.--- btn-primary--- */
