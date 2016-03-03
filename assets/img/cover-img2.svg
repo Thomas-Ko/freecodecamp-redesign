@@ -17,7 +17,7 @@
    height="675"
    viewBox="0 0 1200 675"
    sodipodi:docname="cover-img2.svg"
-   inkscape:export-filename="C:\Users\Thomas Kolodziejczak\Documents\Projects\freecodecamp-redesign\assets\img\cover-green2.png"
+   inkscape:export-filename="C:\Users\Thomas Kolodziejczak\Documents\Projects\freecodecamp-redesign\assets\img\cover-green4.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <metadata
@@ -38,7 +38,7 @@
        inkscape:collect="always"
        id="linearGradient6825">
       <stop
-         style="stop-color:#f22eb0;stop-opacity:0.41340783"
+         style="stop-color:#9a6700;stop-opacity:0.41176471"
          offset="0"
          id="stop6827" />
       <stop
@@ -118,10 +118,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient6825"
        id="linearGradient6831"
-       x1="585.05829"
-       y1="1583.5839"
-       x2="585.05829"
-       y2="4.7015285"
+       x1="583.12103"
+       y1="715.68298"
+       x2="583.12103"
+       y2="93.816353"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -139,7 +139,7 @@
      showgrid="false"
      inkscape:zoom="0.51618795"
      inkscape:cx="524.11122"
-     inkscape:cy="281.98488"
+     inkscape:cy="346.66579"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"

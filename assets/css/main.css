@@ -32,7 +32,7 @@ body,
 }
 
 .cover {
-	background: url('../img/cover-green3.png') top left no-repeat;
+	background: url('../img/cover-green4.png') top left no-repeat;
     background-size: cover;
     display: table;
     width: 100%;
@@ -89,6 +89,32 @@ nav.navbar-default {
     background:none;
     color: #FF9900;
 }
+
+.infobox {
+    background:#1C5C46;
+}
+
+.infobox-inner {
+    border:none;
+    margin:0;
+    font-style: italic;
+    font-size:32px;
+    color:white;
+
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.howitworks img {
+    width:65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
 
 /*.--- btn-green--- */
 .btn-green {
