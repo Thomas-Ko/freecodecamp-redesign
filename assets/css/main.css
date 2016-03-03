@@ -115,8 +115,7 @@ nav.navbar-default {
 /* --- How It Works --- */
 
 .howitworks {
-    background: #fafafa;
-    border-bottom: 2px solid #dfdfdf;
+ 
     padding-bottom:20px;
 }
 
@@ -135,11 +134,24 @@ nav.navbar-default {
 /* --- Curriculum ---*/
 
 .curriculum {
-    background: white;
+    background: #fafafa;
+    border-top: 2px solid #dfdfdf;
+    border-bottom: 2px solid #dfdfdf;
 }
 
-ol li {
-    font-size:20px;
+.curriculum h2 {
+    margin-bottom:30px;
+}
+
+.curriculum p{
+    font-size:30px;
+    text-align:right;
+}
+
+#curriculum-explanation {
+    font-size:16px;
+    text-align: justify;
+    padding:100px 100px;
 }
 
 .fa {
