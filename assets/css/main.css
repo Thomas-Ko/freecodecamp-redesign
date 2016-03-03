@@ -40,7 +40,6 @@ h1,h2 {
     background-size: cover;
     display: table;
     width: 100%;
-    padding: 0 20%;
     box-shadow:inset 0 0 100px #000;
 }
 
@@ -137,6 +136,7 @@ nav.navbar-default {
     background: #fafafa;
     border-top: 2px solid #dfdfdf;
     border-bottom: 2px solid #dfdfdf;
+    padding-bottom:20px;
 }
 
 .curriculum h2 {
@@ -151,8 +151,16 @@ nav.navbar-default {
 #curriculum-explanation {
     font-size:16px;
     text-align: justify;
-    padding:100px 100px;
+    padding:80px 100px 20px 100px;
 }
+
+.curriculum .btn-orange {
+    display:block;
+    margin-left:70px;
+    margin-right:70px;
+}
+
+/*--- Skills You'll Learn Section ---*/
 
 .fa {
     font-size:80px;
@@ -169,6 +177,16 @@ nav.navbar-default {
     width:50%;
 }
 
+/*--- Testimonials Section ---*/
+
+#testimonials {
+}
+
+#testimonials img {
+    display:block;
+    margin:0 auto;
+    height:200px;
+}
 
 /*.--- btn-green--- */
 .btn-green {
