@@ -112,6 +112,14 @@ nav.navbar-default {
     margin-right: 40px;
 }
 
+/* --- How It Works --- */
+
+.howitworks {
+    background: #fafafa;
+    border-bottom: 2px solid #dfdfdf;
+    padding-bottom:20px;
+}
+
 .howitworks img {
     width:65%;
     display: block;
@@ -127,7 +135,7 @@ nav.navbar-default {
 /* --- Curriculum ---*/
 
 .curriculum {
-    background: #f8f1ed;
+    background: white;
 }
 
 ol li {
@@ -136,6 +144,7 @@ ol li {
 
 .fa {
     font-size:80px;
+    color: #b6a57d;
 }
 
 .skills {
