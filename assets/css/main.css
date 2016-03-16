@@ -23,6 +23,15 @@ body,
     font-family: 'Roboto', sans-serif;
 }
 
+.btn-extra-padding {
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+section {
+  padding-top:10px;
+  padding-bottom:20px;
+}
 .navbar-brand {
   font-family: 'Sanchez', serif;
 }
@@ -83,10 +92,10 @@ h2 {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
-.cover .btn-orange {
-    padding-right:100px;
-    padding-left:100px;
+.cover .btn {
+ 
     margin-bottom:20px;
+    width:400px;
 }
 
 nav.navbar-default {
@@ -130,7 +139,7 @@ nav.navbar-default {
 
 .howitworks {
  
-    padding-bottom:20px;
+ 
 }
 
 .howitworks img {
@@ -151,7 +160,7 @@ nav.navbar-default {
     background: #fafafa;
     border-top: 2px solid #dfdfdf;
     border-bottom: 2px solid #dfdfdf;
-    padding-bottom:20px;
+
 }
 
 .curriculum h2 {
@@ -169,10 +178,11 @@ nav.navbar-default {
     padding:80px 100px 20px 100px;
 }
 
-.curriculum .btn-orange {
-    display:block;
-    margin-left:70px;
-    margin-right:70px;
+.curriculum .btn {
+  display:block;
+  width:80%;
+  margin:0 auto;
+  margin-bottom:20px;
 }
 
 /*--- Skills You'll Learn Section ---*/
@@ -220,18 +230,19 @@ nav.navbar-default {
   font-size:15px;
 }
 
-.center-button {
+#testimonials .btn {
   display:block;
   width:50%;
   margin:0 auto;
+  margin-bottom:20px;
 }
 
 /*--- FOOTER SECTION ---*/
 
 footer {
   background:#b6a57d;
-  margin-top:30px;
-  padding-top:20px;
+  padding-top:30px;
+  padding-bottom:30px;
   font-size:16px;
   color:#7b6c45;
 }
@@ -246,8 +257,8 @@ footer img {
   color:white;
 }
 
-svg:hover path {
-    fill: red;
+footer svg {
+  fill:red;
 }
 
 footer ul {
@@ -439,4 +450,63 @@ fieldset[disabled] .btn-orange.focus {
 .btn-orange .badge {
   color: #FF9900;
   background-color: #fff;
+}
+
+/* --- btn-green-inverse ---*/
+.btn-green-inverse {
+  color: #00AC72;
+  background-color: rgba(204, 204, 204, 0.0);
+  border-color: #00AC72;
+}
+.btn-green-inverse:focus,
+.btn-green-inverse.focus {
+  color: #00AC72;
+  background-color: rgba(204, 204, 204, 0.15);
+  border-color: #00AC72;
+}
+.btn-green-inverse:hover {
+  color: #00AC72;
+  background-color: rgba(204, 204, 204, 0.15);
+  border-color: #00AC72;
+}
+.btn-green-inverse:active,
+.btn-green-inverse.active,
+.open > .dropdown-toggle.btn-green-inverse {
+  color: #00AC72;
+  background-color: rgba(204, 204, 204, 0.15);
+  border-color: #00AC72;
+}
+.btn-green-inverse:active:hover,
+.btn-green-inverse.active:hover,
+.open > .dropdown-toggle.btn-green-inverse:hover,
+.btn-green-inverse:active:focus,
+.btn-green-inverse.active:focus,
+.open > .dropdown-toggle.btn-green-inverse:focus,
+.btn-green-inverse:active.focus,
+.btn-green-inverse.active.focus,
+.open > .dropdown-toggle.btn-green-inverse.focus {
+  color: #00AC72;
+  background-color: rgba(204, 204, 204, 0.3);
+  border-color: #00AC72;
+}
+.btn-green-inverse:active,
+.btn-green-inverse.active,
+.open > .dropdown-toggle.btn-green-inverse {
+  background-image: none;
+}
+.btn-green-inverse.disabled:hover,
+.btn-green-inverse[disabled]:hover,
+fieldset[disabled] .btn-green-inverse:hover,
+.btn-green-inverse.disabled:focus,
+.btn-green-inverse[disabled]:focus,
+fieldset[disabled] .btn-green-inverse:focus,
+.btn-green-inverse.disabled.focus,
+.btn-green-inverse[disabled].focus,
+fieldset[disabled] .btn-green-inverse.focus {
+  background-color: #5cb85c;
+  border-color: #00AC72;
+}
+.btn-green-inverse .badge {
+  color: #5cb85c;
+  background-color: #00AC72;
 }
