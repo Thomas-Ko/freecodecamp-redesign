@@ -27,6 +27,11 @@ body,
   font-family: 'Sanchez', serif;
 }
 
+.navbar-brand img {
+  height:20px;
+  display:inline;
+}
+
 h1,h2 {
     font-family: 'Sanchez', serif;
     font-weight:700;
@@ -37,11 +42,11 @@ h2 {
   margin-bottom:20px;
 }
 
-.secondary {
+.orange {
     color:#FF9900;
 }
 
-.primary {
+.green {
     color: #00AC71;
 }
 
@@ -236,6 +241,15 @@ footer h2 {
   margin-bottom:10px;
 }
 
+footer img {
+  width:50px;
+  color:white;
+}
+
+svg:hover path {
+    fill: red;
+}
+
 footer ul {
   list-style-type: none;
   padding:30px 0 0 0 ;
@@ -246,9 +260,11 @@ footer ul {
   padding:10px;
 }
 
+/*===============
+    BUTTONS
+===============*/
 
-
-/*.--- btn-green--- */
+/* --- btn-green --- */
 .btn-green {
   color: #fff;
   background-color: #00AC72;
@@ -306,9 +322,8 @@ fieldset[disabled] .btn-green.focus {
   color: #00AC72;
   background-color: #fff;
 }
-/*--- .btn-green end ---*/
 
-/* --- .btn-inverse ---*/
+/* --- btn-inverse --- */
 .btn-inverse {
   color: #fff;
   background-color: rgba(204, 204, 204, 0.0);
@@ -367,8 +382,7 @@ fieldset[disabled] .btn-inverse.focus {
   background-color: #fff;
 }
 
-/*.btn-orange*/
-
+/* --- btn-orange --- */
 .btn-orange {
   color: #fff;
   background-color: #FF9900;
