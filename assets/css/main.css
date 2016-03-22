@@ -216,6 +216,12 @@ nav.navbar-default {
 #testimonials {
 }
 
+#testimonials .col-md-4{
+  padding-bottom:20px;
+}
+
+
+
 #testimonials img {
     display:block;
     margin:0 auto;
@@ -232,6 +238,12 @@ nav.navbar-default {
   padding:10px 20px;
   font-size:17px;
   text-align:justify;
+  max-width: 400px;
+  margin:0 auto;
+}
+
+.testimonial-text-box p {
+  margin:0;
 }
 
 .testimonial-name {
@@ -533,3 +545,14 @@ fieldset[disabled] .btn-green-inverse.focus {
 
 
 }
+
+
+@media only screen and ( max-width: 992px) {
+  
+  #testimonials .btn{
+    width:80%;
+  }
+
+}
+
+
