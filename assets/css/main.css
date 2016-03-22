@@ -163,31 +163,39 @@ nav.navbar-default {
 
 /* --- Curriculum ---*/
 
-.curriculum {
+#curriculum {
     background: #fafafa;
     border-top: 2px solid #dfdfdf;
     border-bottom: 2px solid #dfdfdf;
 
 }
 
-.curriculum h2 {
+#curriculum .row {
+  padding-bottom:20px;
+}
+
+#curriculum h2 {
     margin-bottom:30px;
 }
 
-.curriculum p{
-    font-size:28px;
-    text-align:right;
+#curriculum-hours {
+  font-size:28px;
+  text-align:right;
 }
+
+
 
 #curriculum-explanation {
     font-size:16px;
     text-align: justify;
-    padding:80px 100px 20px 100px;
+    max-width:355px;
+    margin:0 auto;
+    padding-top:0px;
 }
 
-.curriculum .btn {
+#curriculum .btn {
   display:block;
-  width:80%;
+  width:60%;
   margin:0 auto;
   margin-bottom:20px;
 }
@@ -253,7 +261,7 @@ nav.navbar-default {
 
 #testimonials .btn {
   display:block;
-  width:50%;
+  width:60%;
   margin:0 auto;
   margin-bottom:20px;
 }
@@ -537,22 +545,64 @@ fieldset[disabled] .btn-green-inverse.focus {
   MEDIA QUERIES
 =================*/
 
-@media only screen and ( max-width: 568px) {
+
+
+
+@media only screen and ( max-width: 992px) {
   
-  .cover h1 {
-    font-size:20px;
+  #curriculum .btn {
+    width:80%;
+  }
+
+  #testimonials .btn{
+    width:80%;
+  }
+
+  #curriculum-hours {
+    margin: 0 auto;
+    max-width:480px;
+    padding-right:20px;
+  }
+
+#curriculum-explanation {
+    padding-top:20px;
+    padding-bottom:20px;
+    max-width:600px;
   }
 
 
 }
 
 
-@media only screen and ( max-width: 992px) {
+@media only screen and ( max-width: 568px) {
   
-  #testimonials .btn{
-    width:80%;
+  .btn {
+    font-size: 16px
   }
 
+  .cover h1 {
+    font-size:20px;
+  }
+
+  #curriculum-hours {
+    font-size:28px;
+  }
+
+  #curriculum-explanation {
+    padding-top:20px;
+    font-size:15px;
+  }
+}
+
+@media only screen and ( max-width: 510px) {
+  
+  .cover h1 {
+    font-size:20px;
+  }
+
+  #curriculum-hours {
+    font-size:17px;
+  }
 }
 
 
