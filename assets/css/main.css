@@ -123,16 +123,18 @@ nav.navbar-default {
     color: #FF9900;
 }
 
-.infobox {
+#infobox {
     background:#1C5C46;
 }
 
-.infobox-inner {
+#infobox-inner {
     border:none;
     margin:0;
     font-style: italic;
     font-size:32px;
     color:white;
+    padding-top:10px;
+
 
     display: block;
     margin-top: 1em;
@@ -591,6 +593,10 @@ fieldset[disabled] .btn-green-inverse.focus {
   #curriculum-explanation {
     padding-top:20px;
     font-size:15px;
+  }
+  
+  #infobox-inner {
+    font-size:25px;
   }
 }
 
