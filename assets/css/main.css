@@ -302,6 +302,16 @@ footer {
   color:#7b6c45;
 }
 
+footer a{
+   text-decoration: none;
+   color: #7b6c45;
+}
+
+footer a:hover{
+   text-decoration: none;
+   color: #52472e;
+}
+
 footer h2 {
   margin:0;
   margin-bottom:10px;
@@ -598,6 +608,15 @@ fieldset[disabled] .btn-green-inverse.focus {
       margin: 0 auto;
    }
 
+   footer ul {
+      list-style-type: none;
+      padding:10px 0 0 0 ;
+   }
+
+   .social-media {
+      padding: 20px 0 0 0;
+   }
+
 }
 
 /*----- <548px -----*/
@@ -642,6 +661,7 @@ fieldset[disabled] .btn-green-inverse.focus {
   #curriculum-hours {
     font-size:17px;
   }
+
 
 }
 
