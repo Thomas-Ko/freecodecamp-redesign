@@ -123,6 +123,35 @@ body,
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
+/*=== Press Coverage ===*/
+
+#press-coverage {
+   padding-top:15px;
+}
+
+.press-coverage1 {
+   padding:0;
+}
+
+.press-coverage1 img {
+  float: right;
+  margin-right:7px;
+}
+
+.press-coverage2 {
+   padding:0;
+}
+
+.press-coverage2 img {
+   float:left;
+}
+
+#press-coverage-title {
+   margin:0 auto;
+   color:black;
+   opacity: 0.4;
+   font-weight:bold;
+}
 
 /*===============================
       HOW IT WORKS Section
@@ -151,7 +180,6 @@ body,
     background: #fafafa;
     border-top: 2px solid #dfdfdf;
     border-bottom: 2px solid #dfdfdf;
-
 }
 
 #curriculum .row {
@@ -261,7 +289,6 @@ body,
   text-align: right;
   font-size:15px;
 }
-
 
 /*===============================
       FOOTER   
@@ -557,6 +584,18 @@ fieldset[disabled] .btn-green-inverse.focus {
       padding-top:20px;
       padding-bottom:20px;
       max-width:600px;
+   }
+
+   .press-coverage1 img {
+      float:none;
+      display:block;
+      margin: 0 auto;
+   }
+
+   .press-coverage2 img {
+      float:none;
+      display:block;
+      margin: 0 auto;
    }
 
 }
