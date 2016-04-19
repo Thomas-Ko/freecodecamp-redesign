@@ -14,6 +14,14 @@ section {
    padding-bottom:10px;
 }
 
+a {
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+}
+
 h1,h2 {
     font-family: 'Sanchez', serif;
     font-weight:700;
@@ -302,7 +310,7 @@ footer {
   color:#7b6c45;
 }
 
-footer a{
+footer a, footer a:active, footer a:visited{
    text-decoration: none;
    color: #7b6c45;
 }
