@@ -43,14 +43,6 @@ h2 {
   margin-bottom:20px;
 }
 
-.orange-text {
-    color:#FF9900;
-}
-
-.green-text {
-    color: #00AC71;
-}
-
 
 /*===============================
       NAVBAR 
@@ -185,9 +177,9 @@ body,
 ===============================*/
 
 #curriculum {
-    background: #fafafa;
-    border-top: 2px solid #dfdfdf;
-    border-bottom: 2px solid #dfdfdf;
+    background: #F9FCFA;
+    border-top: 2px solid #ddeee3;
+    border-bottom: 2px solid #ddeee3;
 }
 
 #curriculum .row {
