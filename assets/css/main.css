@@ -127,6 +127,7 @@ body,
 
 #press-coverage {
    padding-top:15px;
+   opacity: 0.5;
 }
 
 .press-coverage1 {
@@ -149,7 +150,6 @@ body,
 #press-coverage-title {
    margin:0 auto;
    color:black;
-   opacity: 0.4;
    font-weight:bold;
 }
 
@@ -600,12 +600,14 @@ fieldset[disabled] .btn-green-inverse.focus {
       float:none;
       display:block;
       margin: 0 auto;
+      width:100%
    }
 
    .press-coverage2 img {
       float:none;
       display:block;
       margin: 0 auto;
+      width:100%
    }
 
    footer ul {
